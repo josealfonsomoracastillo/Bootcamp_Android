@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.unab;
+
+/**
+ * @author José Alfonso
+ *
+ */
+public class Ejercicio {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	int	edad = 33;
+	
+	String nombre= "Susana";
+		
+		System.out.println("Saludos cordiales");
+		
+
+	}
+
+}
