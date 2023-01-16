@@ -4,30 +4,26 @@ public class User {
 
 	public static void main(String[] args) {
 		
-		// TODO tres perfiles: cliente, profesional y administrativo. 
-		
-		// TODO crear: nombre, fecha de nacimiento y RUN. 
-		
-		//TODO   registrar: Cliente: dirección, teléfono, cantidad de empleados
-		
-		
-		Profesional: años de experiencia, departamento
-		Administrativo: función, nombre superior
-		Se pide un algoritmo y pieza de código Java que solicite una cantidad de usuarios a ingresar, y que
-		pida por cada uno de ellos los campos que son comunes y el tipo a registrar. Dependiendo del tipo,
-		debe pedir los campos se piden según perfil; una vez ingresados los campos, se deben mostrar por
-		pantalla.
-		El algoritmo concluye una vez que se ha ingresado la cantidad de usuarios indicada inicialmente.
-		
-		
-		
-		
-	   //caracteristicas -> atributes
-		String nombre = "";
-		
-		// acciones -> metodos
-		
+		// TODO 	crear tres perfiles: cliente, profesional y administrativo
+		/*Perfil: - 1 cliente
+		          - 2 profesional
+		          - 3 Administrativo*/ 
+		        
+		        System.out.println("Ingrese Opción: ");
+		        System.out.println ("\r\n   1 cliente");
+		        System.out.println ("   2 profesional");
+		        System.out.println ("   3 Administrativo\r\n");  
+		        
+				//	TODO 	crear variables nombre, fecha de nacimiento y RUN
+				//	TODO	Crear perfil
+				//	TODO	registrar distintos datos 		
+				//	TODO	crear variables Cliente: dirección, teléfono, cantidad de empleados
+				//	TODO	crear variables Profesional: años de experiencia, departamento
+			 //	TODO	crear variable Administrativo: función, nombre superior
+				// TODO solicite una cantidad de usuarios a ingresar
+				//	TODO	pida por cada uno de ellos los campos Y tipo a registrar.
+				//	TODO	ingresar datos según perfil;
+				//	TODO mostrar datos por pantalla.
+				//	TODO	El algoritmo concluye .  
 	}
-	public static void
-
-}
+	}
