@@ -1,4 +1,6 @@
-package com.user_register;
+package com.androidbootcamp.user_register;
+
+import java.util.Scanner;
 
 public class User {
 
@@ -14,7 +16,21 @@ public class User {
 		        System.out.println ("   2 profesional");
 		        System.out.println ("   3 Administrativo\r\n");  
 		        
+		        
+		        // Almacenar datos usuario
+		        
+		        Scanner User= new Scanner (System.in);  
+		        int num client = 1;
+		        
+		        
+		        
+		        
 				//	TODO 	crear variables nombre, fecha de nacimiento y RUN
+		        
+		        
+		        
+		        
+		        
 				//	TODO	Crear perfil
 				//	TODO	registrar distintos datos 		
 				//	TODO	crear variables Cliente: dirección, teléfono, cantidad de empleados
