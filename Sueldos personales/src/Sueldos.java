@@ -1,8 +1,6 @@
-
+import java.util.Scanner;
 public class Sueldos {
-	
-	public static void main(String[] args) {
-        // TODO Auto-generated method stub
+
 	    protected final int salarioMinimo = 410000;
 	    protected int sueldo; 
 
@@ -11,8 +9,8 @@ public class Sueldos {
 	            System.out.println("La persona recibe salario mínimo");
 	        } else if (sueldo < salarioMinimo) {
 	            System.out.println("La persona esta pobre");
-	        } else  (sueldo > salarioMinimo) {
-	            System.out.println("La persona esta bien económica");
+	        } else if (sueldo > salarioMinimo) {
+	            System.out.println("La persona esta bien economicamente");
 	        }
 	    }
 
@@ -21,12 +19,32 @@ public class Sueldos {
 	            System.out.println("Recibe Bono Marzo");
 	        } else if (sueldo < salarioMinimo) {
 	            System.out.println("Recibe Bono Marzo más canasta familiar");
-	        } else (sueldo > salarioMinimo) {
-	            System.out.println("La persona esta bien económica no recibe nada");
+	        } else if (sueldo > salarioMinimo) {
+	            System.out.println("La persona esta bien economicamente y no recibe nada");
 	        }
 	    }
+
+
+
+	    public static void main(String[] args) {
+	        // TODO Auto-generated method stub
+	
 	    
-	    
+	    	
+	    Scanner entrada = new Scanner(System.in);	
+	    	
+	    	System.out.print("Ingrese Salario: ");
+	        int valor = entrada.nextInt();
+	        System.out.println("El Salario: " + valor);
+	    	
+	        Sueldos sueldos = new Sueldos();
+	        sueldos.sueldo = valor;
+	        sueldos.comparaSueldos();
+	        sueldos.recibeBono();
+	    	
+	    	
+	    	
 	   
-	  
+	    	
+	    }
 	}
