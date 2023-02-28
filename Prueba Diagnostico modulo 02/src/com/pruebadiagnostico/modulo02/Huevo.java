@@ -1,18 +1,24 @@
+package com.pruebadiagnostico.modulo02;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-package com.pruebadiagnostico.modulo02;
 
 public class Huevo extends Carro{
 
  // 1- Agregar los atributos
 
- // 2- Generar to string:	
+
+	
+	
+	
+	
+ // 2- Agregar to String:
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Huevo [cantidadOcupantes=").append(cantidadOcupantes).append(", fechaIngreso=")
-				.append(fechaIngreso).append("]");
+				.append(fechaIngreso).append(", cantidadColumnas=").append(cantidadColumnas).append(", cantidadFilas=")
+				.append(cantidadFilas).append("]");
 		return builder.toString();
 	}
 	

@@ -1,21 +1,22 @@
+package com.pruebadiagnostico.modulo02;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-package com.pruebadiagnostico.modulo02;
 
 public class Caguano extends Carro {
 
  // 1- Agregar los atributos:
 	protected int alcanceTiro;
 	protected String colorConfeti;
-
 	
- // 2- Generar to string:		
+	
+ // 2- Agregar to String:		
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Caguano [alcanceTiro=").append(alcanceTiro).append(", colorConfeti=").append(colorConfeti)
 				.append(", cantidadOcupantes=").append(cantidadOcupantes).append(", fechaIngreso=").append(fechaIngreso)
+				.append(", cantidadColumnas=").append(cantidadColumnas).append(", cantidadFilas=").append(cantidadFilas)
 				.append("]");
 		return builder.toString();
 	}
@@ -61,11 +62,6 @@ public class Caguano extends Carro {
 			public void setColorConfeti(String colorConfeti) {
 				this.colorConfeti = colorConfeti;
 			}
-	
- 
-	
-	
-	
 	
 	
 }

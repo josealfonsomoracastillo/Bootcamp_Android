@@ -1,8 +1,8 @@
+package com.pruebadiagnostico.modulo02;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-package com.pruebadiagnostico.modulo02;
 
 public class Kromi extends Carro {
 
@@ -10,14 +10,19 @@ public class Kromi extends Carro {
 	protected int añoFabricación;
 	protected String marca;
 
- // 2- Generar to string:	
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Kromi [añoFabricación=").append(añoFabricación).append(", marca=").append(marca)
-				.append(", cantidadOcupantes=").append(cantidadOcupantes).append(", fechaIngreso=").append(fechaIngreso)
-				.append("]");
-		return builder.toString();
-	}
+	
+	
+
+ // 2- Agregar toString:
+   public String toString() {
+	  StringBuilder builder = new StringBuilder();
+	  builder.append("Kromi [añoFabricación=").append(añoFabricación).append(", marca=").append(marca)
+			.append(", cantidadOcupantes=").append(cantidadOcupantes).append(", fechaIngreso=").append(fechaIngreso)
+			.append(", cantidadColumnas=").append(cantidadColumnas).append(", cantidadFilas=").append(cantidadFilas)
+			.append("]");
+	    return builder.toString();
+   }
+
 
  // 3- Agregar constructor vacio:
 	      public Kromi() {
@@ -58,10 +63,5 @@ public class Kromi extends Carro {
 		public void setMarca(String marca) {
 			this.marca = marca;
 		}
-	
-
-	
-	
-	
 	
 }

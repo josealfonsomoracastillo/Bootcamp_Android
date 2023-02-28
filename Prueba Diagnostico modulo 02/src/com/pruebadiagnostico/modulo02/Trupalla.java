@@ -1,8 +1,8 @@
+package com.pruebadiagnostico.modulo02;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-package com.pruebadiagnostico.modulo02;
 
 public class Trupalla extends Carro {
 
@@ -10,12 +10,13 @@ public class Trupalla extends Carro {
 	protected int nivelArmadura;
 	protected String nombreOperador;
 	
- // 2- Generar to string:	
+ // 2- Agregar to String:	
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Trupalla [nivelArmadura=").append(nivelArmadura).append(", nombreOperador=")
 				.append(nombreOperador).append(", cantidadOcupantes=").append(cantidadOcupantes)
-				.append(", fechaIngreso=").append(fechaIngreso).append("]");
+				.append(", fechaIngreso=").append(fechaIngreso).append(", cantidadColumnas=").append(cantidadColumnas)
+				.append(", cantidadFilas=").append(cantidadFilas).append("]");
 		return builder.toString();
 	}
 	
@@ -65,17 +66,6 @@ public class Trupalla extends Carro {
 	public void setNombreOperador(String nombreOperador) {
 		this.nombreOperador = nombreOperador;
 	}
-
-
- 
-
-
-	
-
-
-
-
-	
 	
 	
 }
